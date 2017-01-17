@@ -40,10 +40,10 @@ body {
 }
 
 .main_photo {
-  border: 1px;
-  /*border-bottom: #138aa7;*/
+  clear: both;
+  border-top: 1px solid #138aa7;
+  border-bottom: 1px solid #138aa7;
   width: 100%;
-  border-color: #128aa7;
 }
 
 /*MENU*/
@@ -118,16 +118,6 @@ ul:after {
   position: relative;
   text-align: center;
   font-size: 10px;
-}
-
-.i_flag a:hover {
-  color: green;
-}
-
-.i_flag a img {
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
 /*OTHER*/
