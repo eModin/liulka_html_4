@@ -31,10 +31,6 @@ body {
 /*LOGO*/
 
 .logo {
-  /*display: block;*/
-  /*position: relative;*/
-  /*overflow: hidden;*/
-  /*width: 283px;*/
   height: 164px;
   padding: 11px 0 0 29px;
   float: left;
@@ -58,10 +54,6 @@ body {
   border-top: 1px solid #138aa7;
   border-bottom: 1px solid #138aa7;
   margin-bottom: 1px;
-  /*background-image: url(../img/photo.png);*/
-  /*background-repeat: no-repeat;*/
-  /*background-size: cover;*/
-  /*width: 100%;*/
 }
 
 /*MENU*/
@@ -69,13 +61,11 @@ body {
 .menu_bg {
   background-color: #323232;
   border-bottom: 1px solid #000;
-  box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.75);
   z-index: 3;
 }
 
 .menu {
-  /*margin-left: 24px;*/
-  /*background-color: #323232;*/
+  box-shadow: 0px 8px 14px 0px rgba(0,0,0,0.75);
 }
 
 ul {
